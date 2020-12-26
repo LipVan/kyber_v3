@@ -9,6 +9,7 @@
 #define KYBER512_KEYGEN_H_
 
 #include "../common/common.h"
+#include "../common/ntt.h"
 
 __global__ void KeyGenKernel(uint8_t *sk, uint8_t *pk, uint8_t *seed_d);
 

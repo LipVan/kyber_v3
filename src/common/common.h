@@ -14,6 +14,8 @@
 #include "keccak.h"
 #include "hash.h"
 #include "reduce.h"
+#include "zetatab.h"
+#include "ntt.h"
 
 extern "C"{
 #include "rng.h"

@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 #include <stddef.h>
+#include <cuda.h>
+#include <cuda_runtime.h>
 #include "keccak.h"
 
 #define SHAKE_SUFFIX 0x1F
